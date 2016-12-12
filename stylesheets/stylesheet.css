@@ -2,16 +2,17 @@
   box-sizing: border-box; }
 
 body {
+  background: #000;
+  text-align:center;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #ddd; }
 
 a {
-  color: #1e6bb8;
-  text-decoration: none; }
+    color: #fff;    }
   a:hover {
     text-decoration: underline; }
 
@@ -222,15 +223,11 @@ a {
 
 .site-footer {
   padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  margin-top: 2rem; }
 
 .site-footer-owner {
   display: block;
   font-weight: bold; }
-
-.site-footer-credits {
-  color: #819198; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
